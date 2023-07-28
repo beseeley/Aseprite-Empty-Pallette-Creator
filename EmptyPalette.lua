@@ -2,7 +2,7 @@
 -- Makes a blank pallete with 3 colors: clear, white, and black 
  
 local spr = app.activeSprite
---If no sprite open, cna't
+--If no sprite open, can't work with the palette
 if not spr then
   return app.alert("There is no active sprite")
 end
